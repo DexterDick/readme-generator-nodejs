@@ -26,19 +26,7 @@ const questions = [
             }
         },
     },
-    {
-        name: "table_of_contents",
-        type: "input",
-        message: "Enter Table of Contents:",
-        validate: (input) => {
-            if (input) {
-                return true;
-            } else {
-                console.log("\nPlease enter Table of contents!");
-                return false;
-            }
-        },
-    },
+
     {
         name: "installation",
         type: "input",
